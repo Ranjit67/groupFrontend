@@ -107,7 +107,7 @@ export default function App() {
         muted
         autoPlay
         playsInline
-      ></video>
+      />
       {uui}
       <br />
 
