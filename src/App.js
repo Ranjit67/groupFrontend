@@ -15,7 +15,7 @@ export default function App() {
   const peersRef = useRef([]);
   const ref = useRef();
   useEffect(() => {
-    socketRef.current = io.connect("http://localhost:4000/");
+    socketRef.current = io.connect("https://groupapi.herokuapp.com/");
 
     navigator.mediaDevices
       .getUserMedia({ video: true, audio: true })
