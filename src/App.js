@@ -104,6 +104,7 @@ export default function App() {
         width="420"
         height="315"
         ref={userVideo}
+        muted
         autoPlay
         playsInline
       ></video>
