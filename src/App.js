@@ -106,6 +106,7 @@ export default function App() {
         ref={userVideo}
         autoPlay
         playsInline
+    muted
       ></video>
       {uui}
       <br />
