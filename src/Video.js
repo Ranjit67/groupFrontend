@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import Peer from "simple-peer";
+// import Peer from "simple-peer";
 const Video = (props) => {
   const ref = useRef();
 
